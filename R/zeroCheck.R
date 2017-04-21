@@ -1,9 +1,8 @@
 #' Expected zeros from a Poisson model
 #'
 #' Posterior predictive checks for zero-inflation (MCMCglmm course notes pg. 104). Runs simulation NITT times, using individual realizations from the model to simulate a poisson distribution. The number of zeros from each simulation are plotted along with the actual number of zeros from the dataset, in order to decide if the model requires a zero-inflation term ('zipoisson')
-#' @param m1 MCMCglmm model
-#' @param dat Data frame used to fit m1
-#' @export
+#' @param mod1 MCMCglmm model
+#' @param dat Data frame used to fit \code{mod1}
 #' @examples
 #' load(data)
 #' mod1<-MCMCglmm(Count~x,data=data,family='poisson')

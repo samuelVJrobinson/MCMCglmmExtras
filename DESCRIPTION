@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: true
 URL: http://github.com/samuelVJrobinson/MCMCglmmExtras
 BugReports: http://github.com/samuelVJrobinson/MCMCglmmExtras/issues
+RoxygenNote: 6.0.1
